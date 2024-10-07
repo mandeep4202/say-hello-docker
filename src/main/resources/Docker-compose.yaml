@@ -1,0 +1,8 @@
+services:
+  webapp:
+    image: say-hello-docker
+    ports:
+      - "8080:8080"
+    build:
+     context: ../../../
+     dockerfile: Dockerfile
